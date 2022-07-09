@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+    overflow-y: hidden;
 }
 
 /* Typography */
@@ -13,14 +14,13 @@ body, p {
 }
 
 h1, h2 {
-    color: #00394d;
     display: inline-block;
     padding: 3px 6px;
 }
 
 h3,h4,h5,h6 { 
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-weight: 600;
     font-size: large;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -28,11 +28,14 @@ h3,h4,h5,h6 {
 
 #sidebar {
     position: fixed;
-    right: 50;
-    top:100;
-    bottom:100;
-    width: 25%;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 20%;
     z-index: 1;
+    background:white;
+    opacity:0.7;
+    color: black;
 }
 
 #map-parent {
@@ -41,9 +44,9 @@ h3,h4,h5,h6 {
 	bottom: 0;
 	right: 0;
 	width: 100%;	/* 100% of viewport width */
-	height: 100vh;	/* 100% of viewport height */
+	height: 100%;	/* 100% of viewport height */
 }
-#map { width: 100%; height: 100%; position: absolute; }
+#map { width: 100%; height: 100%; position: absolute; } 
 
 #map-sidebar {
     position: absolute;
@@ -57,7 +60,7 @@ h3,h4,h5,h6 {
 }
 
 /* Sidebar Content */
-#sidebar>div { padding: 20px; }
+#sidebar>div { padding: 0px; }
 
 .page-title {
     font-size: 30px;
@@ -66,19 +69,19 @@ h3,h4,h5,h6 {
 
 
 #chapters {
-    height: 900px;
+    height: 500px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
 
 #chapters>.chapter>h3 {
     font-size:25px;
-    opacity:.7;
+    background:white;
+    opacity:0.7;
 }
 #chapters>.chapter>p {
-    opacity:.8;
     color:black;
-    font-size:20px;
+    font-size:17px;
     background:white;
     opacity:0.7;
 }
@@ -97,7 +100,7 @@ h3,h4,h5,h6 {
     #layers-control h3 { 
         line-height: initial;
         font-size: 15px;
-        color:black;
+        color:#00394d;
     }
 
     #layers-control a {
@@ -123,6 +126,8 @@ h3,h4,h5,h6 {
     #layers-control a.active:hover {
         background: hotpink;
     }
+
+  
 
 
 
