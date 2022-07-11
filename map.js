@@ -30,7 +30,7 @@ var mapZoom = 11;
         ['Nightlife', 'Nightlife'],
         ['Tourist spot', 'Tourist spots'],
         ['building (1)', '3D Buildings'],
-        ['Anchors points'+'Anchors polygons'+'Anchors labels', 'Anchors'],
+        /*['Anchors points'+'Anchors polygons'+'Anchors labels', 'Anchors'],*/
         // add additional live data layers here as needed  
     ]; 
 
