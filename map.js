@@ -30,7 +30,7 @@ var mapZoom = 11;
         ['Nightlife', 'Nightlife'],
         ['Tourist spot', 'Tourist spots'],
         ['building (1)', '3D Buildings'],
-        ['Anchors', 'Anchors'],
+        ['Anchors points'+'Anchors polygons'+'Anchors labels', 'Anchors'],
         // add additional live data layers here as needed  
     ]; 
 
@@ -146,7 +146,7 @@ var mapZoom = 11;
         
         'chapter07': {
             name: "Wedding : Stage 3",
-            description: "Zoom in to Wedding and nightlife and art establishment sites overlay"+"<br><br>"+"Wedding is a historically working-class area with a large population of migrants that has recently begun to develop a high concentration of artistic spaces. Though it is primed for gentrification, municipal policies in social housing development and neighbourhood management offices have allowed for socioeconomic diversity to somewhat coexist alongside its development as an artistic hub."+"<br><br><br><br><br><br><br><br><br><br><br><br>",
+            description: "Zoom in to Wedding and nightlife and art establishment sites overlay"+"<br><br>"+"Wedding is a historically working-class area with a large population of migrants that has recently begun to develop a high concentration of artistic spaces. Though it is primed for gentrification, municipal policies in social housing development and neighbourhood management offices have allowed for socioeconomic diversity to somewhat coexist alongside its development as an artistic hub."+"<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>",
             //imagepath: "img/McIntire Park.jpg",
             bearing: 0,
             center: [13.341221, 52.555607],
