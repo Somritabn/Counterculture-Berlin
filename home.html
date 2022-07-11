@@ -16,6 +16,7 @@
   <!-- Link to our custom stylesheet -->  
   <link rel="stylesheet" href="styles.css">
 
+  <!-- Link to javascript library --> 
   <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
 </head>
@@ -29,40 +30,29 @@
 
   <!-- Map overlay sidebar -->
     <div id='map-sidebar'>
+      <h1 class='page-title'>Counterculture Berlin</h1>
+      <!-- About this map button -->
+      <!-- Info window (populated by javascript code from the Mapbox map layers) -->
+      <div id='info-window'>
+        <h2 class= 'subtitle'>An interactive mapping of counterculture onto the history of gentrification and the struggle for land rights in Berlin</h2>
+      </div>
+      <!-- Scrolling chapters (populated by javascript code from the Mapbox map layers) -->
       <!-- Layers control (populated by javascript code) -->
       <div id='layers-control'>
         <h3>Show/Hide Layers:</h3>
       </div>
     </div>
     
-  <!-- The legend will be added to this div by javascript --> 
-     <div
-      id="legend"
-      class="my36 mx12 px12 py12 absolute z1 right bottom bg-white round-ml shadow-darken10 none"
-    >
-      <div id="legend-colors" class="grid mb6"></div>
-      <div id="legend-values" class="grid txt-xs"></div>
-    </div>
-  </div>
   <!-- Map sidebar --> 
   <div id="sidebar">
     <div>
-      <h1 class='page-title'>Counterculture Berlin</h1>
-      <!-- About this map button -->
-      <!-- Info window (populated by javascript code from the Mapbox map layers) -->
-      <div id='info-window'>
-        <p id="subtitle">An interactive mapping of counterculture onto the urban conditions of gentrification and land right struggle in Berlin</p>
-      </div>
-      <!-- Scrolling chapters (populated by javascript code from the Mapbox map layers) -->
+      
       <div id="chapters"></div>
     </div>
   </div>
+
 </body>
 
 <!-- Link to our custom javascript, must be placed at the end of the index.html file -->  
 <script src="map.js"></script>
 </html>
-
-<!--
-  <script data-original-src="/s/player/0e7373c2/player_ias.vflset/en_US/miniplayer.js" nonce="KMbelvuZVI-_FeIWHNB4PA" src="/s/player/0e7373c2/player_ias.vflset/en_US/miniplayer.js"></script>
--->
