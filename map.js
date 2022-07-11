@@ -30,7 +30,7 @@ var mapZoom = 11;
         ['Nightlife', 'Nightlife'],
         ['Tourist spot', 'Tourist spots'],
         ['building (1)', '3D Buildings'],
-        /*['Anchors points'+'Anchors polygons'+'Anchors labels', 'Anchors'],*/
+        /*['Anchors points'+'Anchors polygons'+'Anchors labels', 'Anchors'],NEED TO EDIT IN MAPBOX MAKE ONE LAYER FOR THIS*/
         // add additional live data layers here as needed  
     ]; 
 
@@ -90,7 +90,7 @@ var mapZoom = 11;
             center: [13.413161, 52.513910],
             zoom: 10.8,
             pitch: 0,
-            layersVis:['Migrant Population Density','Background','industrial copy'], 
+            layersVis:['Migrant Population Density','Background','Industrial icons'], 
             layersHide:['Commercial','Residential','Industrial','Colleges','Anchors points','Anchors polygons','Anchors labels','My camera surveillance','transit-stop-label','My Art Museum Monument','Nightlife','Tourist spot','building (1)'],
             speed:0.5,
         },
@@ -102,7 +102,7 @@ var mapZoom = 11;
             center: [13.413161, 52.513910],
             zoom: 10.8,
             pitch: 0,
-            layersVis:['Migrant Population Density','Anchors points','Anchors polygons','Anchors labels','Background','industrial copy'], 
+            layersVis:['Migrant Population Density','Anchors points','Anchors polygons','Anchors labels','Background','Industrial icons'], 
             layersHide:['My parks','landuse','national-park','land','My water','Commercial','Residential','Industrial','Colleges','My camera surveillance','transit-stop-label','My Art Museum Monument','Nightlife','Tourist spot','building (1)'],
             speed:0.5,
         },
@@ -114,7 +114,7 @@ var mapZoom = 11;
             center: [13.413161, 52.513910],
             zoom: 10.8,
             pitch: 0,
-            layersVis:['Migrant Population Density','Anchors points','Anchors polygons','Anchors labels','Background','industrial copy','Tourist spot'], 
+            layersVis:['Migrant Population Density','Anchors points','Anchors polygons','Anchors labels','Background','Industrial icons','Tourist spot'], 
             layersHide:['My parks','landuse','national-park','land','My water','Commercial','Residential','Industrial','Colleges','My camera surveillance','transit-stop-label','My Art Museum Monument','Nightlife','building (1)'],
             speed:0.5,
         },
@@ -127,7 +127,7 @@ var mapZoom = 11;
             center: [13.430098, 52.498089],
             zoom: 12.69,
             pitch: 0,
-            layersVis:['industrial copy','My water','Anchors points','Anchors polygons','Anchors labels','My parks','My Art Museum Monument','Nightlife','Tourist spot'], 
+            layersVis:['Industrial icons','My water','Anchors points','Anchors polygons','Anchors labels','My parks','My Art Museum Monument','Nightlife','Tourist spot'], 
             layersHide:['Neighborhood Outlines','Commercial','Residential','Industrial','Colleges','Migrant Population Density','My camera surveillance','transit-stop-label','building (1)'],
             speed:0.5,
         },
@@ -146,13 +146,13 @@ var mapZoom = 11;
         
         'chapter07': {
             name: "Wedding : Stage 3",
-            description: "Zoom in to Wedding and nightlife and art establishment sites overlay"+"<br><br>"+"Wedding is a historically working-class area with a large population of migrants that has recently begun to develop a high concentration of artistic spaces. Though it is primed for gentrification, municipal policies in social housing development and neighbourhood management offices have allowed for socioeconomic diversity to somewhat coexist alongside its development as an artistic hub."+"<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>",
+            description: "Zoom in to Wedding and nightlife and art establishment sites overlay"+"<br><br>"+"Wedding is a historically working-class area with a large population of migrants that has recently begun to develop a high concentration of artistic spaces. Though it is primed for gentrification, municipal policies in social housing development and neighbourhood management offices have allowed for socioeconomic diversity to somewhat coexist alongside its development as an artistic hub."+"<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>",
             //imagepath: "img/McIntire Park.jpg",
             bearing: 0,
             center: [13.341221, 52.555607],
             zoom:12.69,
             pitch: 0,
-            layersVis:['industrial copy','My water','Anchors points','Anchors polygons','Anchors labels','My parks','My Art Museum Monument','Nightlife','Tourist spot'], 
+            layersVis:['Industrial icons','My water','Anchors points','Anchors polygons','Anchors labels','My parks','My Art Museum Monument','Nightlife','Tourist spot'], 
             layersHide:['Neighborhood Outlines','Commercial','Residential','Industrial','Colleges','Migrant Population Density','My camera surveillance','transit-stop-label','building (1)'],
             speed:0.5,
         },
